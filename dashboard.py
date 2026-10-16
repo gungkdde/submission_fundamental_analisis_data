@@ -47,7 +47,6 @@ day_df, hour_df = load_data()
 # ==============================
 with st.sidebar:
     st.title("🚲 Bike Sharing Analytics")
-    st.image("https://raw.githubusercontent.com/dicodingacademy/assets/main/logo.png")
     
     # Filter rentang waktu
     min_date = day_df["dteday"].min()
